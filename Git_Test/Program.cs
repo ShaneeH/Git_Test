@@ -12,7 +12,10 @@ namespace Git_Test
             Console.WriteLine("Git Test");
 
             Class2 x = new Class2();
+            Class3 y = new Class3();
             x.Word();
+            y.Object();
+            
             Console.ReadLine();
 
         }
